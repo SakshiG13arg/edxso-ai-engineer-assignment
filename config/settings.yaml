@@ -1,0 +1,36 @@
+project:
+  name: "EDXSO AI Engineer Intern - Assignment 1"
+  campaign_id: "edxso-tech-demo-2026"
+
+filter:
+  min_followers: 5000
+  max_followers: 100000
+  min_engagement_rate: 2.0
+  niche: "technology"
+  required_keywords:
+    - tech
+    - technology
+    - gadget
+    - coding
+    - software
+    - digital
+    - ai
+    - computer
+    - developer
+    - review
+    - gaming
+    - crypto
+
+personalization:
+  collaboration_angle: "paid UGC / sponsored technology content"
+  brand_name: "EDXSO"
+  brand_value: "education and technology-focused collaboration"
+  email_min_words: 60
+  email_max_words: 90
+  dm_min_words: 15
+  dm_max_words: 30
+
+runtime:
+  seed_file: "data/influencers_seed.csv"
+  db_file: "outputs/outreach.db"
+  output_dir: "outputs"
